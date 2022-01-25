@@ -1,24 +1,19 @@
 import React from 'react';
 
+import TodoList from './TodoList';
+import AddTodoForm from './AddTodoForm';
+
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <h1>TODO LIST</h1>
-        <ul>
-           Apple
-           Apple
-           Apple
-        </ul>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TodoList/>
   );
+  }
+function AddTodoForm() {
+   return (
+     <AddTodoForm/>
+   );
+
 }
+
 
 export default App;
